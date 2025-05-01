@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0160-intersection-of-two-linked-lists](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0443-string-compression](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0443-string-compression) |
 | [1659-get-the-maximum-score](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1659-get-the-maximum-score) |
 | [1894-merge-strings-alternately](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1894-merge-strings-alternately) |
@@ -26,4 +27,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0443-string-compression](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0443-string-compression) |
 | [1894-merge-strings-alternately](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1894-merge-strings-alternately) |
+## Hash Table
+|  |
+| ------- |
+| [0160-intersection-of-two-linked-lists](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
+## Linked List
+|  |
+| ------- |
+| [0160-intersection-of-two-linked-lists](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 <!---LeetCode Topics End-->
