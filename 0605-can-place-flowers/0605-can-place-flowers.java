@@ -2,6 +2,9 @@ class Solution {
     public boolean canPlaceFlowers(int[] flowerbed, int n) {
         int plant = 0;
         int size = flowerbed.length;
+        if(n == 0){
+            return true;
+        }
         while (plant < size) {
             boolean emptyleft = (plant == 0 ? true : flowerbed[plant - 1] == 0);
             boolean emptyright = (plant == size - 1 ? true : flowerbed[plant + 1] == 0);
@@ -13,7 +16,7 @@ class Solution {
                         return true;
                     }
                 }
-                plant += (plant + 2 == size || emptyright == false) ? 1 : 2;
+                plant += emptyright ? 2 : 1;
 
             } else {
                 plant += 2;
