@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0443-string-compression](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0443-string-compression) |
 | [1659-get-the-maximum-score](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1659-get-the-maximum-score) |
 | [1894-merge-strings-alternately](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1894-merge-strings-alternately) |
 ## Dynamic Programming
@@ -23,5 +24,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0443-string-compression](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0443-string-compression) |
 | [1894-merge-strings-alternately](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1894-merge-strings-alternately) |
 <!---LeetCode Topics End-->
