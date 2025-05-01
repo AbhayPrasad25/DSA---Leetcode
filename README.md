@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0334-increasing-triplet-subsequence](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0334-increasing-triplet-subsequence) |
 | [1659-get-the-maximum-score](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1659-get-the-maximum-score) |
 ## Two Pointers
 |  |
@@ -21,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0334-increasing-triplet-subsequence](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0334-increasing-triplet-subsequence) |
 | [1659-get-the-maximum-score](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1659-get-the-maximum-score) |
 ## String
 |  |
