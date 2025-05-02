@@ -15,22 +15,8 @@ class Solution {
             }
             freq2[ch - 'a']++;
         }
-        List<Integer> list1 = count(freq1);
-        List<Integer> list2 = count(freq2);
-        return checkEqual(list1, list2); 
+        Arrays.sort(freq1);
+        Arrays.sort(freq2);
+        return Arrays.equals(freq1, freq2); 
     }
-    private List<Integer> count(int[] freq){
-        List<Integer> count = new ArrayList<>();
-        for(int i = 0; i < freq.length; i++){
-            if(freq[i] != 0){
-                count.add(freq[i]);
-            }
-        }
-        return count;
-    }
-    private boolean checkEqual(List<Integer> list1 , List<Integer> list2){
-        Collections.sort(list1);
-        Collections.sort(list2);
-        return list1.equals(list2);
-    } 
 }
