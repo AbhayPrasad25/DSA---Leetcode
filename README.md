@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0392-is-subsequence) |
 | [0443-string-compression](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0443-string-compression) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1146-greatest-common-divisor-of-strings) |
+| [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1894-merge-strings-alternately](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1894-merge-strings-alternately) |
 ## Hash Table
 |  |
@@ -69,4 +70,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0002-add-two-numbers) |
 | [0507-perfect-number](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0507-perfect-number) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1146-greatest-common-divisor-of-strings) |
+## Sliding Window
+|  |
+| ------- |
+| [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 <!---LeetCode Topics End-->
