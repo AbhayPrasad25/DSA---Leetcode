@@ -39,11 +39,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0443-string-compression](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0443-string-compression) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
+| [1777-determine-if-two-strings-are-close](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 | [1894-merge-strings-alternately](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1894-merge-strings-alternately) |
 ## Hash Table
 |  |
 | ------- |
 | [0160-intersection-of-two-linked-lists](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
+| [1777-determine-if-two-strings-are-close](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 ## Linked List
 |  |
@@ -58,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [1777-determine-if-two-strings-are-close](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 ## Recursion
 |  |
@@ -74,4 +77,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
+## Counting
+|  |
+| ------- |
+| [1777-determine-if-two-strings-are-close](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 <!---LeetCode Topics End-->
