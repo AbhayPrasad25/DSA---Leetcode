@@ -1,22 +1,20 @@
 class Solution {
     public int maxOperations(int[] nums, int k) {
-        // Better Approach sorting and two pointers
-        Arrays.sort(nums);
-        int left = 0;
-        int right = nums.length - 1;
+        // Optimal Approach using HashMap and finding the complement
+        HashMap<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            map.put(nums[i], map.getOrDefault(nums[i], 0) + 1);
+        }
         int operation = 0;
-        while(left < right){
-            int sum = nums[left] + nums[right];
-            if(sum == k){
-                operation += 1;
-                left++;
-                right--;
-            }
-            else if(sum < k){
-                left++;
-            }
-            else{
-                right--;
+        for (int i = 0; i < nums.length; i++) {
+            int el = k - nums[i];
+            if (el == nums[i] && map.containsKey(el) && map.get(el) >= 2) {
+                map.put(el, map.getOrDefault(el, 0) - 2);
+                operation++;
+            } else if (el != nums[i] && map.containsKey(el) && map.get(el) > 0 && map.get(nums[i]) > 0) {
+                map.put(el, map.getOrDefault(el, 0) - 1);
+                map.put(nums[i], map.getOrDefault(nums[i], 0) - 1);
+                operation++;
             }
         }
         return operation;
