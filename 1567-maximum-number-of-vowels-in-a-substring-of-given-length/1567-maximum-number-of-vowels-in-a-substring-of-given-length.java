@@ -1,22 +1,24 @@
 class Solution {
     public int maxVowels(String s, int k) {
         //Optimal Approach
-        HashSet<Character> set = new HashSet<>();
-        set.add('a');
-        set.add('e');
-        set.add('i');
-        set.add('o');
-        set.add('u');
+        boolean[] freq = new boolean[26];
+        freq['a' - 'a'] = true;
+        freq['e' - 'a'] = true;
+        freq['i' - 'a'] = true;
+        freq['o' - 'a'] = true;
+        freq['u' - 'a'] = true;
         int maxVowel = Integer.MIN_VALUE;
         int left = 0;
         int count = 0;
         for (int right = 0; right < s.length(); right++) {
-            if (set.contains(s.charAt(right))) {
+            char ch = s.charAt(right);
+            if (freq[ch - 'a']) {
                 count++;
             }
             if (right - left + 1 == k) {
                 maxVowel = Math.max(maxVowel, count);
-                if (set.contains(s.charAt(left))) {
+                char c = s.charAt(left);
+                if (freq[c - 'a']) {
                     count--;
                 }
                 left++;
