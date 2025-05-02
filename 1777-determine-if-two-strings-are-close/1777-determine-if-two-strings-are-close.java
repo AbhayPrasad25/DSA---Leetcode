@@ -3,24 +3,30 @@ class Solution {
         if(word1.length() != word2.length()){
             return false;
         }
-        HashMap<Character, Integer> map1 = new HashMap<>();
-        HashMap<Character, Integer> map2 = new HashMap<>();
+        int[] freq1 = new int[26];
+        int[] freq2 = new int[26];
         for(char ch : word1.toCharArray()){
-            map1.put(ch , map1.getOrDefault(ch , 0) + 1);
+            freq1[ch - 'a']++;
         }
         // Now checking for unique values while updating the HashMap map 2
         for(char ch : word2.toCharArray()){
-            if(!map1.containsKey(ch)){
+            if(freq1[ch - 'a'] == 0){
                 return false;
             }
-            map2.put(ch , map2.getOrDefault(ch , 0) + 1);
+            freq2[ch - 'a']++;
         }
-        List<Integer> list1 = count(map1);
-        List<Integer> list2 = count(map2);
+        List<Integer> list1 = count(freq1);
+        List<Integer> list2 = count(freq2);
         return checkEqual(list1, list2); 
     }
-    private List<Integer> count(HashMap<Character, Integer> map1){
-        return new ArrayList<>(map1.values());
+    private List<Integer> count(int[] freq){
+        List<Integer> count = new ArrayList<>();
+        for(int i = 0; i < freq.length; i++){
+            if(freq[i] != 0){
+                count.add(freq[i]);
+            }
+        }
+        return count;
     }
     private boolean checkEqual(List<Integer> list1 , List<Integer> list2){
         Collections.sort(list1);
