@@ -8,13 +8,13 @@ class Solution {
         return helpPower(x , power);
     }
     private double helpPower(double x , long pow){
-        if(pow == 0){
-            return 1.0;
-        }
-        double half = helpPower(x , pow/2);
-        double res = half * half;
-        if(pow % 2 == 1){
-            res = res * x;
+        double res = 1;
+        while(pow > 0){
+            if(pow % 2 == 1){
+                res *= x;
+            }
+            x *= x;
+            pow /= 2;
         }
         return res;
     }
