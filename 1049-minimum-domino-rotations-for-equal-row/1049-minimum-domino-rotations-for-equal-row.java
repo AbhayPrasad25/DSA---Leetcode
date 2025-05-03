@@ -1,23 +1,23 @@
 class Solution {
     public int minDominoRotations(int[] tops, int[] bottoms) {
-        int candidate1 = tops[0];
-        int candidate2 = bottoms[0];
-        int rotations1 = Math.min(count(tops, bottoms, candidate1), count(bottoms, tops, candidate1));
-        int rotations2 = Math.min(count(tops, bottoms, candidate2), count(bottoms, tops, candidate2));
-
-        int minRotations = Math.min(rotations1, rotations2);
-        return (minRotations == Integer.MAX_VALUE) ? -1 : minRotations;
+        int minimum = countRotation(tops, bottoms , tops[0]);
+        if(minimum != - 1) return minimum;
+        return countRotation(tops, bottoms, bottoms[0]);
     }
-    private int count(int[] top, int[] bottom, int el){
-        int cnt = 0;
+    private int countRotation(int[] top, int[] bottom, int el){
+        int rotateTop = 0;
+        int rotateBottom = 0;
         for(int i = 0; i < top.length; i++){
-            if(bottom[i] == el && top[i] != el){
-                cnt++;
+            if(top[i] != el && bottom[i] != el){
+                return -1;
             }
-            else if(bottom[i] != el && top[i] != el){
-                return Integer.MAX_VALUE;
+            else if(top[i] != el){
+                rotateTop++;
+            }
+            else if(bottom[i] != el){
+                rotateBottom++;
             }
         }
-        return cnt; 
+        return Math.min(rotateTop, rotateBottom); 
     }
 }
