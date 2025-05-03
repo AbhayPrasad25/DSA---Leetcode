@@ -8,14 +8,14 @@ class Solution {
         return (int)((even * odd) % modulo_amt);
     }
     private long fastcomput(long base, long exp, int modulo_amt){
-        long res = 1;
-        while(exp > 0){
-            if(exp % 2 == 1){
-                res = (res * base) % modulo_amt;
-            }
-            base = (base * base) % modulo_amt;
-            exp /= 2;
+        if(exp == 0){
+            return 1;
         }
-        return res % modulo_amt;
+        long half = fastcomput(base, exp/2, modulo_amt);
+        long result = (half * half) % modulo_amt;
+        if(exp % 2 == 1){
+            result = (result * base) % modulo_amt;
+        }
+        return result;
     }
 }
