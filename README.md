@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1659-get-the-maximum-score](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1659-get-the-maximum-score) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
+| [2428-equal-row-and-column-pairs](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/2428-equal-row-and-column-pairs) |
 ## Two Pointers
 |  |
 | ------- |
@@ -67,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0160-intersection-of-two-linked-lists](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [1777-determine-if-two-strings-are-close](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
+| [2428-equal-row-and-column-pairs](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/2428-equal-row-and-column-pairs) |
 ## Linked List
 |  |
 | ------- |
@@ -116,4 +118,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1046-max-consecutive-ones-iii](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
+## Matrix
+|  |
+| ------- |
+| [2428-equal-row-and-column-pairs](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/2428-equal-row-and-column-pairs) |
+## Simulation
+|  |
+| ------- |
+| [2428-equal-row-and-column-pairs](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/2428-equal-row-and-column-pairs) |
 <!---LeetCode Topics End-->
