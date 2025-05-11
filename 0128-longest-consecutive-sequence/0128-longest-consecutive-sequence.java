@@ -7,10 +7,8 @@ class Solution {
         int maxLen = 0;
         for (int n : set) {
             if (!set.contains(n - 1)) {
-                int currentNum = n;
                 int len = 1;
-                while (set.contains(currentNum + 1)) {
-                    currentNum++;
+                while (set.contains(n + len)) {
                     len++;
                 }
                 maxLen = Math.max(maxLen, len);
