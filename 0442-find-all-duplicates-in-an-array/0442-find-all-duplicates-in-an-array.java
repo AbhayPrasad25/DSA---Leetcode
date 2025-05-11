@@ -3,11 +3,12 @@ class Solution {
         List<Integer> ans = new ArrayList<>();
         HashSet<Integer> set = new HashSet<>();
         for(int i = 0; i < nums.length; i++){
-            if(set.contains(nums[i])){
-                ans.add(nums[i]);
+            int index = Math.abs(nums[i]) - 1;
+            if(nums[index] < 1){
+                ans.add(index + 1);
             }
             else{
-                set.add(nums[i]);
+                nums[index] = -nums[index];
             }
         }
         return ans;
