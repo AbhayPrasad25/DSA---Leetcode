@@ -12,11 +12,11 @@ class Solution {
         return reverseString(st);
     }
     private String reverseString(Stack<Character> s){
-        String string = "";
+        StringBuilder s1 = new StringBuilder();
         while(!s.isEmpty()){
-            string += s.pop();
+            s1.append(s.pop());
         }
-        char[] str =  string.toCharArray();
+        char[] str =  s1.toString().toCharArray();
         int left = 0;
         int right = str.length - 1;
         while(left < right){
