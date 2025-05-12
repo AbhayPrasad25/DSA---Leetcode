@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1659-get-the-maximum-score](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1659-get-the-maximum-score) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
+| [1833-find-the-highest-altitude](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1833-find-the-highest-altitude) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2428-equal-row-and-column-pairs](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/2428-equal-row-and-column-pairs) |
 ## Two Pointers
@@ -88,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0238-product-of-array-except-self) |
 | [1046-max-consecutive-ones-iii](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1046-max-consecutive-ones-iii) |
+| [1833-find-the-highest-altitude](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1833-find-the-highest-altitude) |
 ## Sorting
 |  |
 | ------- |
