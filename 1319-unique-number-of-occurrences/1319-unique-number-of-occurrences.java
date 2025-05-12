@@ -1,22 +1,17 @@
 class Solution {
     public boolean uniqueOccurrences(int[] arr) {
-        HashSet<Integer> set = new HashSet<>();
+        //Usinga a HashMap and HashSet to find if the array has uniqueOccurences or not 
+        HashMap<Integer, Integer> map = new HashMap<>();
         for(int a : arr){
-            set.add(a);
+            map.put(a , map.getOrDefault(a , 0) + 1);
         }
-        HashSet<Integer> set2 = new HashSet<>();
-        for(int a: set){
-            int count = 0;
-            for(int ar : arr){
-                if(a == ar){
-                    count++;
-                }
-            }
-            if(set2.contains(count)){
+        HashSet<Integer> set = new HashSet<>();
+        for(var entry : map.entrySet()){
+            if(set.contains(entry.getValue())){
                 return false;
             }
             else{
-                set2.add(count);
+                set.add(entry.getValue());
             }
         }
         return true;
