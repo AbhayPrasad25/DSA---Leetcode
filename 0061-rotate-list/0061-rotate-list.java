@@ -15,6 +15,9 @@ class Solution {
         }
         int count = size(head);
         k = k % count;
+        if(k == 0){
+            return head;
+        }
         ListNode rptr = head;
         for(int i = 0; i < k ; i++){
             rptr = rptr.next;
@@ -24,16 +27,13 @@ class Solution {
             lptr = lptr.next;
             rptr = rptr.next;
         }
-        if(lptr == rptr){
-            return head;
-        }
         ListNode newhead = lptr.next;
         lptr.next = null;
         ListNode temp = newhead;
-        while(temp != null && temp.next != null){
-            temp = temp.next;
-        }
-        temp.next = head;
+        // while(temp != null && temp.next != null){
+        //     temp = temp.next;
+        // }
+        rptr.next = head;
         return newhead;
     }
     private int size(ListNode head){
