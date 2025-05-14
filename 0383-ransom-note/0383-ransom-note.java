@@ -4,10 +4,9 @@ class Solution {
         for(char c : magazine.toCharArray()){
             freqA[c - 'a']++;
         }
-        int[] freqB = new int[26];
         for(char c : ransomNote.toCharArray()){
-            freqB[c - 'a']++;
-            if(freqB[c - 'a'] > freqA[c - 'a']){
+            freqA[c - 'a']--;
+            if(freqA[c - 'a'] < 0){
                 return false;
             }
         }
