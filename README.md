@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1659-get-the-maximum-score](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1659-get-the-maximum-score) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1894-merge-strings-alternately](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1894-merge-strings-alternately) |
+| [2236-maximum-twin-sum-of-a-linked-list](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
 ## Dynamic Programming
 |  |
@@ -94,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0061-rotate-list](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0061-rotate-list) |
 | [0086-partition-list](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0086-partition-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
+| [2236-maximum-twin-sum-of-a-linked-list](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -164,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [2236-maximum-twin-sum-of-a-linked-list](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 | [2470-removing-stars-from-a-string](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/2470-removing-stars-from-a-string) |
 ## Interactive
 |  |
