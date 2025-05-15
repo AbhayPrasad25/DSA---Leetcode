@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0011-container-with-most-water) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [0152-maximum-product-subarray](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0238-product-of-array-except-self](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0283-move-zeroes](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0287-find-the-duplicate-number) |
@@ -55,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0152-maximum-product-subarray](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0392-is-subsequence](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0392-is-subsequence) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1659-get-the-maximum-score](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1659-get-the-maximum-score) |
