@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0605-can-place-flowers](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0605-can-place-flowers) |
 | [0724-find-pivot-index](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0724-find-pivot-index) |
 | [0917-boats-to-save-people](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0917-boats-to-save-people) |
+| [0954-maximum-sum-circular-subarray](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0954-maximum-sum-circular-subarray) |
 | [1046-max-consecutive-ones-iii](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1319-unique-number-of-occurrences](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1319-unique-number-of-occurrences) |
@@ -58,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0392-is-subsequence](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0392-is-subsequence) |
+| [0954-maximum-sum-circular-subarray](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0954-maximum-sum-circular-subarray) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1659-get-the-maximum-score](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1659-get-the-maximum-score) |
 ## Greedy
@@ -192,4 +194,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0155-min-stack) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0954-maximum-sum-circular-subarray](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0954-maximum-sum-circular-subarray) |
+## Queue
+|  |
+| ------- |
+| [0954-maximum-sum-circular-subarray](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0954-maximum-sum-circular-subarray) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0954-maximum-sum-circular-subarray](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0954-maximum-sum-circular-subarray) |
 <!---LeetCode Topics End-->
