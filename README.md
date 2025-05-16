@@ -181,10 +181,15 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0155-min-stack](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0155-min-stack) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 | [2470-removing-stars-from-a-string](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/2470-removing-stars-from-a-string) |
 ## Interactive
 |  |
 | ------- |
 | [0374-guess-number-higher-or-lower](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0374-guess-number-higher-or-lower) |
+## Design
+|  |
+| ------- |
+| [0155-min-stack](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0155-min-stack) |
 <!---LeetCode Topics End-->
