@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0152-maximum-product-subarray](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0238-product-of-array-except-self](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0268-missing-number](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0268-missing-number) |
@@ -163,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0002-add-two-numbers) |
 | [0050-powx-n](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0050-powx-n) |
 | [0067-add-binary](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0067-add-binary) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0172-factorial-trailing-zeroes](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0172-factorial-trailing-zeroes) |
 | [0268-missing-number](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0268-missing-number) |
 | [0507-perfect-number](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0507-perfect-number) |
@@ -216,6 +218,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0020-valid-parentheses) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0155-min-stack) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 | [2470-removing-stars-from-a-string](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/2470-removing-stars-from-a-string) |
