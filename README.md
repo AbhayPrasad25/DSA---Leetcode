@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2428-equal-row-and-column-pairs](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/2428-equal-row-and-column-pairs) |
+| [3321-type-of-triangle](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/3321-type-of-triangle) |
 | [3705-find-the-largest-almost-missing-integer](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/3705-find-the-largest-almost-missing-integer) |
 ## Two Pointers
 |  |
@@ -144,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1777-determine-if-two-strings-are-close](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
+| [3321-type-of-triangle](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/3321-type-of-triangle) |
 ## Recursion
 |  |
 | ------- |
@@ -164,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0507-perfect-number](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0507-perfect-number) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1146-greatest-common-divisor-of-strings) |
 | [2050-count-good-numbers](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/2050-count-good-numbers) |
+| [3321-type-of-triangle](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/3321-type-of-triangle) |
 ## Sliding Window
 |  |
 | ------- |
