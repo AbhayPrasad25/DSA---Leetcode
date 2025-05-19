@@ -6,14 +6,11 @@ class Solution {
             max = Math.max(max , num);
             min = Math.min(min , num);
         }
-        int n = 1;
-        int number = 1;
-        while(n <= min){
-            if(max % n == 0 && min % n == 0){
-                number = n;
-            }
-            n++;
+        while(max % min != 0){
+            int rem = max % min;
+            max = min;
+            min = rem;
         }
-        return number;
+        return min;
     }
 }
