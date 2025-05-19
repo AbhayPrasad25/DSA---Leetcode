@@ -16,19 +16,6 @@ class Solution {
             str.append(sum % 2);
             carry = sum/2;
         }
-        return reverse(str.toString());
-    }
-    private String reverse(String s){
-        char[] c = s.toCharArray();
-        int left = 0;
-        int right = s.length() - 1;
-        while(left < right){
-            char temp = c[left];
-            c[left] = c[right];
-            c[right] = temp;
-            left++;
-            right--;
-        }
-        return String.valueOf(c);
+        return str.reverse().toString();
     }
 }
