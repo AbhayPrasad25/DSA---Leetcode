@@ -1,21 +1,27 @@
 class Solution {
     public int countGoodNumbers(long n) {
-        int modulo_amt = 1000000007;
-        long even_count = (n + 1)/2;
-        long odd_count = n /2;
-        long even = fastcomput(5, even_count, modulo_amt);
-        long odd = fastcomput(4, odd_count, modulo_amt);
-        return (int)((even * odd) % modulo_amt);
+        long modulo = 1000000007;
+        long num = n;
+        long evenIndex = (n + 1)/2;
+        long oddIndex = n/2;
+        //Now we need to find the total number of possible solution for each index;
+        long evenres = exponentiation(5, evenIndex, modulo);
+        long oddres = exponentiation(4, oddIndex, modulo);
+        return (int)((evenres * oddres) % modulo);
     }
-    private long fastcomput(long base, long exp, int modulo_amt){
-        if(exp == 0){
+    //Modular Arithmetic
+    private long exponentiation(long base, long count, long modulo){
+        //Base Case
+        if(count == 0){
             return 1;
         }
-        long half = fastcomput(base, exp/2, modulo_amt);
-        long result = (half * half) % modulo_amt;
-        if(exp % 2 == 1){
-            result = (result * base) % modulo_amt;
+        long power = exponentiation(base , count/2, modulo);
+        long res = (power * power) % modulo;
+        if(count % 2 != 0){
+            res *= base;
+            res %= modulo;
         }
-        return result;
+        return res;
     }
+
 }
