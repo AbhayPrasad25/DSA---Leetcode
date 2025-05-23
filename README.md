@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0011-container-with-most-water) |
 | [0041-first-missing-positive](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0041-first-missing-positive) |
 | [0056-merge-intervals](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0056-merge-intervals) |
+| [0078-subsets](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0078-subsets) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0128-longest-consecutive-sequence) |
@@ -210,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0067-add-binary) |
+| [0078-subsets](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0078-subsets) |
 | [0268-missing-number](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0287-find-the-duplicate-number) |
 ## Union Find
@@ -273,4 +275,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
+## Backtracking
+|  |
+| ------- |
+| [0078-subsets](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
