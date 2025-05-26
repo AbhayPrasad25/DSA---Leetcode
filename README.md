@@ -275,18 +275,21 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0094-binary-tree-inorder-traversal](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
+| [1544-count-good-nodes-in-binary-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
+| [1544-count-good-nodes-in-binary-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
+| [1544-count-good-nodes-in-binary-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Backtracking
 |  |
 | ------- |
@@ -298,4 +301,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
+| [1544-count-good-nodes-in-binary-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 <!---LeetCode Topics End-->
