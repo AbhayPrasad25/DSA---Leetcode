@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0334-increasing-triplet-subsequence](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0334-increasing-triplet-subsequence) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
+| [0523-continuous-subarray-sum](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0605-can-place-flowers](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0605-can-place-flowers) |
 | [0724-find-pivot-index](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0724-find-pivot-index) |
 | [0917-boats-to-save-people](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0917-boats-to-save-people) |
@@ -123,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0442-find-all-duplicates-in-an-array](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0451-sort-characters-by-frequency](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0451-sort-characters-by-frequency) |
+| [0523-continuous-subarray-sum](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0523-continuous-subarray-sum) |
 | [1319-unique-number-of-occurrences](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1319-unique-number-of-occurrences) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1777-determine-if-two-strings-are-close](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1777-determine-if-two-strings-are-close) |
@@ -145,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0238-product-of-array-except-self) |
+| [0523-continuous-subarray-sum](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0724-find-pivot-index](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0724-find-pivot-index) |
 | [1046-max-consecutive-ones-iii](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1833-find-the-highest-altitude](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1833-find-the-highest-altitude) |
@@ -180,6 +183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0172-factorial-trailing-zeroes](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0172-factorial-trailing-zeroes) |
 | [0268-missing-number](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0268-missing-number) |
 | [0507-perfect-number](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0507-perfect-number) |
+| [0523-continuous-subarray-sum](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0523-continuous-subarray-sum) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1146-greatest-common-divisor-of-strings) |
 | [2050-count-good-numbers](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/2050-count-good-numbers) |
 | [2106-find-greatest-common-divisor-of-array](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/2106-find-greatest-common-divisor-of-array) |
