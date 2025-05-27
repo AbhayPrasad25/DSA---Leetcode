@@ -188,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1146-greatest-common-divisor-of-strings](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1146-greatest-common-divisor-of-strings) |
 | [2050-count-good-numbers](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/2050-count-good-numbers) |
 | [2106-find-greatest-common-divisor-of-array](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/2106-find-greatest-common-divisor-of-array) |
+| [2541-sum-of-number-and-its-reverse](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/2541-sum-of-number-and-its-reverse) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/3172-divisible-and-non-divisible-sums-difference) |
 | [3321-type-of-triangle](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/3321-type-of-triangle) |
 ## Sliding Window
@@ -309,4 +310,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
+## Enumeration
+|  |
+| ------- |
+| [2541-sum-of-number-and-its-reverse](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/2541-sum-of-number-and-its-reverse) |
 <!---LeetCode Topics End-->
