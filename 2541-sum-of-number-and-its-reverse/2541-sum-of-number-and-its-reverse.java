@@ -9,9 +9,15 @@ class Solution {
         return false;
     }
     private boolean check(int n, int num){
-        StringBuilder str = new StringBuilder(String.valueOf(n));
-        String st = str.reverse().toString();
-        int n2 = Integer.parseInt(st);
-        return (n + n2) == num;
+        int rev = reverse(n);
+        return (n + rev) == num;
+    }
+    private int reverse(int num){
+        int rev = 0;
+        while(num > 0){
+            rev = rev * 10 + num % 10;
+            num/=10;
+        }
+        return rev;
     }
 }
