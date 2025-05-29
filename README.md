@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2428-equal-row-and-column-pairs](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/2428-equal-row-and-column-pairs) |
 | [3194-find-words-containing-character](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/3194-find-words-containing-character) |
+| [3221-find-the-peaks](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/3221-find-the-peaks) |
 | [3321-type-of-triangle](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/3321-type-of-triangle) |
 | [3705-find-the-largest-almost-missing-integer](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/3705-find-the-largest-almost-missing-integer) |
 ## Two Pointers
@@ -340,6 +341,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2541-sum-of-number-and-its-reverse](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/2541-sum-of-number-and-its-reverse) |
+| [3221-find-the-peaks](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/3221-find-the-peaks) |
 ## String Matching
 |  |
 | ------- |
