@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0152-maximum-product-subarray](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0238-product-of-array-except-self](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0268-missing-number](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0268-missing-number) |
+| [0274-h-index](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0274-h-index) |
 | [0283-move-zeroes](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0334-increasing-triplet-subsequence](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0334-increasing-triplet-subsequence) |
@@ -167,6 +168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0075-sort-colors) |
 | [0268-missing-number](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0268-missing-number) |
+| [0274-h-index](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0274-h-index) |
 | [0451-sort-characters-by-frequency](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0917-boats-to-save-people](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0917-boats-to-save-people) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
@@ -363,4 +365,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1509-replace-employee-id-with-the-unique-identifier](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1509-replace-employee-id-with-the-unique-identifier) |
 | [1827-invalid-tweets](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1827-invalid-tweets) |
 | [1908-recyclable-and-low-fat-products](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1908-recyclable-and-low-fat-products) |
+## Counting Sort
+|  |
+| ------- |
+| [0274-h-index](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0274-h-index) |
 <!---LeetCode Topics End-->
