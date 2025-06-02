@@ -18,23 +18,11 @@ class Solution {
         if(root == null){
             return new TreeNode(val);
         }
-        TreeNode temp = root;
-        TreeNode parent = null;
-        while(temp != null){
-            parent = temp;
-            if(temp.val < val){
-                temp = temp.right;
-            }
-            else{
-                temp = temp.left;
-            }
-        }
-        //Now we have got the null postion here we insrt the newnode 
-        if(parent.val < val){
-            parent.right = new TreeNode(val);
+        if(root.val < val){
+            root.right = insertIntoBST(root.right, val);
         }
         else{
-            parent.left = new TreeNode(val);
+            root.left = insertIntoBST(root.left , val);
         }
         return root;
     }
