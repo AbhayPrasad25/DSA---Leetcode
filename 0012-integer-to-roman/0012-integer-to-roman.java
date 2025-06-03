@@ -5,33 +5,33 @@ class Solution {
         maped(map);
         int size = calculatesize(num);
         while(size >= 0){
-            int n = num / (int)Math.pow(10, size);
+            int pow = power(size);
+            int n = num / pow;
             if(n == 0){
                 size--;
                 continue;
             }
-            int val = n * (int)Math.pow(10, size);
+            int val = n * pow;
             if(map.containsKey(val)){
                 str.append(map.get(val));
             }
             else{
-                int place = (int)Math.pow(10 , size);
-                if(val > 5 * place){
-                    str.append(map.get(5 *  place));
-                    int newVal = val - (5 * place);
+                if(val > 5 * pow){
+                    str.append(map.get(5 * pow));
+                    int newVal = val - (5 * pow);
                     while(newVal > 0){
-                        str.append(map.get(place));
-                        newVal -= place;
+                        str.append(map.get(pow));
+                        newVal -= pow;
                     }
                 }
                 else{
                     while(val > 0){
-                        str.append(map.get(place));
-                        val -= place;
+                        str.append(map.get(pow));
+                        val -= pow;
                     }
                 }
             }
-            num %= (int)(Math.pow(10, size));
+            num %= pow;
             size--;
         }
         return str.toString();
@@ -58,5 +58,16 @@ class Solution {
         map.put(500, "D");
         map.put(900, "CM");
         map.put(1000, "M");
+    }
+    private int power(int size){
+        int res = 1;
+        if(size == 0){
+            return res;
+        }
+        while(size > 0){
+            res *= 10;
+            size--;
+        }
+        return res;
     }
 }
