@@ -116,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0392-is-subsequence) |
 | [0443-string-compression](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0443-string-compression) |
 | [0451-sort-characters-by-frequency](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0451-sort-characters-by-frequency) |
+| [0886-score-of-parentheses](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0886-score-of-parentheses) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1777-determine-if-two-strings-are-close](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1777-determine-if-two-strings-are-close) |
@@ -260,6 +261,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0155-min-stack) |
+| [0886-score-of-parentheses](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0886-score-of-parentheses) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 | [2470-removing-stars-from-a-string](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/2470-removing-stars-from-a-string) |
 ## Interactive
