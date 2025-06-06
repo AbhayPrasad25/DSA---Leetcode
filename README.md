@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-max-consecutive-ones-iii](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1319-unique-number-of-occurrences](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1319-unique-number-of-occurrences) |
+| [1354-find-players-with-zero-or-one-losses](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1354-find-players-with-zero-or-one-losses) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
@@ -142,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0523-continuous-subarray-sum](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0525-contiguous-array) |
 | [1319-unique-number-of-occurrences](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1319-unique-number-of-occurrences) |
+| [1354-find-players-with-zero-or-one-losses](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1354-find-players-with-zero-or-one-losses) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1777-determine-if-two-strings-are-close](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
@@ -178,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0274-h-index](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0274-h-index) |
 | [0451-sort-characters-by-frequency](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0917-boats-to-save-people](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0917-boats-to-save-people) |
+| [1354-find-players-with-zero-or-one-losses](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1354-find-players-with-zero-or-one-losses) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1777-determine-if-two-strings-are-close](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
@@ -222,6 +225,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0383-ransom-note](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0383-ransom-note) |
 | [0451-sort-characters-by-frequency](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0451-sort-characters-by-frequency) |
+| [1354-find-players-with-zero-or-one-losses](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1354-find-players-with-zero-or-one-losses) |
 | [1777-determine-if-two-strings-are-close](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 ## Binary Search
 |  |
