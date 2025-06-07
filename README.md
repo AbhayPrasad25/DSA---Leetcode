@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0724-find-pivot-index](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0724-find-pivot-index) |
 | [0917-boats-to-save-people](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0917-boats-to-save-people) |
 | [0954-maximum-sum-circular-subarray](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0954-maximum-sum-circular-subarray) |
+| [0966-binary-subarrays-with-sum](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1319-unique-number-of-occurrences](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1319-unique-number-of-occurrences) |
@@ -142,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0523-continuous-subarray-sum](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0525-contiguous-array) |
+| [0966-binary-subarrays-with-sum](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1319-unique-number-of-occurrences](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1319-unique-number-of-occurrences) |
 | [1354-find-players-with-zero-or-one-losses](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1354-find-players-with-zero-or-one-losses) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1392-find-the-difference-of-two-arrays) |
@@ -168,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0523-continuous-subarray-sum](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0525-contiguous-array) |
 | [0724-find-pivot-index](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0724-find-pivot-index) |
+| [0966-binary-subarrays-with-sum](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1833-find-the-highest-altitude](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1833-find-the-highest-altitude) |
 ## Sorting
@@ -216,6 +219,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0966-binary-subarrays-with-sum](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
