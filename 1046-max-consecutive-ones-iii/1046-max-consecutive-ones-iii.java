@@ -1,22 +1,30 @@
 class Solution {
     public int longestOnes(int[] nums, int k) {
-        int left = 0, right = 0;
-        int sum = 0;
-        int max = 0;
-        int count = 0;
-        while(right < nums.length){
-            if(nums[right] == 0){
-                count++;
+        int[] prefix = new int[nums.length + 1];
+        int pr = 0;
+        for(int i = 0; i < nums.length; i++){
+            if(nums[i] == 0){
+                pr++;
             }
-            while(count > k){
-                if(nums[left] == 0){
-                    count--;
-                }
-                left++;
-            }
-            max = Math.max(right - left + 1, max);
-            right++;
+            prefix[i + 1] = pr;
         }
-        return max;
+        //Applying binary search to find the first starting point
+        int maxlen = 0;
+        for(int right = 0; right < nums.length; right++){
+            int left = 0, r = right + 1;
+            while(left < r){
+                int mid = left + (r - left)/2;
+                int zero = prefix[right + 1] - prefix[mid];
+                if(zero <= k){
+                    r = mid;
+                }
+                else{
+                    left = mid + 1;
+                }
+            }
+            //Since left is the leftmost valid start
+            maxlen = Math.max(right - left + 1, maxlen);
+        }
+        return maxlen;
     }
 }
