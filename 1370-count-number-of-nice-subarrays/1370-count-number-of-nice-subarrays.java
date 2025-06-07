@@ -1,25 +1,17 @@
 class Solution {
     public int numberOfSubarrays(int[] nums, int k) {
-        //dynamic sliding window approach 
-        return atMostOdd(nums, k) - atMostOdd(nums, k - 1);
-    }
-    public int atMostOdd(int[] nums, int k){
-        int left = 0;
-        int right = 0;
+        HashMap<Integer, Integer> map = new HashMap<>();
         int count = 0;
         int odd = 0;
-        while(right < nums.length){
-            if(nums[right] % 2 != 0){
+        map.put(0, 1);
+        for(int num : nums){
+            if(num % 2 != 0){
                 odd++;
             }
-            while(left <= right && odd > k){
-                if(nums[left] % 2 != 0){
-                    odd--;
-                }
-                left++;
+            if(map.containsKey(odd - k)){
+                count += map.get(odd - k);
             }
-            count += right - left;
-            right++;
+            map.put(odd, map.getOrDefault(odd , 0) + 1);
         }
         return count;
     }
