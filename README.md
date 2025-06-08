@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0917-boats-to-save-people](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0917-boats-to-save-people) |
 | [0954-maximum-sum-circular-subarray](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0954-maximum-sum-circular-subarray) |
 | [0966-binary-subarrays-with-sum](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0966-binary-subarrays-with-sum) |
+| [1034-subarrays-with-k-different-integers](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1319-unique-number-of-occurrences](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1319-unique-number-of-occurrences) |
@@ -145,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0523-continuous-subarray-sum](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0525-contiguous-array) |
 | [0966-binary-subarrays-with-sum](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0966-binary-subarrays-with-sum) |
+| [1034-subarrays-with-k-different-integers](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1319-unique-number-of-occurrences](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1319-unique-number-of-occurrences) |
 | [1354-find-players-with-zero-or-one-losses](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1354-find-players-with-zero-or-one-losses) |
 | [1370-count-number-of-nice-subarrays](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
@@ -224,6 +226,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0966-binary-subarrays-with-sum](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0966-binary-subarrays-with-sum) |
+| [1034-subarrays-with-k-different-integers](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
@@ -234,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0383-ransom-note](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0383-ransom-note) |
 | [0451-sort-characters-by-frequency](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0451-sort-characters-by-frequency) |
+| [1034-subarrays-with-k-different-integers](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1354-find-players-with-zero-or-one-losses](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1354-find-players-with-zero-or-one-losses) |
 | [1777-determine-if-two-strings-are-close](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 ## Binary Search
