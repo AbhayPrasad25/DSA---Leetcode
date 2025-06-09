@@ -15,26 +15,28 @@
  */
 class Solution {
     public boolean isBalanced(TreeNode root) {
-        return (checkBalance(root) != -1 ? true : false);
+        if(root == null){
+            return true;
+        }
+        if(checkBalance(root) == -1){
+            return false;
+        }
+        else{
+            return true;
+        }
     }
     private int checkBalance(TreeNode root){
         if(root == null){
             return 0;
         }
-        //Traverse until the left most node is null
-        //Used the post order traveral approach
-        int leftHeight = checkBalance(root.left);
-        //Traverse until the rightmost node is null
-        int rightHeight = checkBalance(root.right);
-        //check if the leftHeight is -1 or rightHeight is -1 and early return
-        if(leftHeight == -1 || rightHeight == -1){
+        int left = checkBalance(root.left);
+        int right = checkBalance(root.right);
+        if(left == -1 || right == -1){
             return -1;
         }
-        //check for the dif if the diff is greater than 1 return -1
-        if(Math.abs(leftHeight - rightHeight) > 1){
+        if(Math.abs(left - right) > 1){
             return -1;
         }
-        //Now return the height of each child node to the parent node
-        return Math.max(leftHeight, rightHeight) + 1;
+        return Math.max(left, right) + 1;
     }
 }
