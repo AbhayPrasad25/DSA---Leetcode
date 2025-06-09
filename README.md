@@ -114,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0067-add-binary) |
 | [0151-reverse-words-in-a-string](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0205-isomorphic-strings) |
+| [0257-binary-tree-paths](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0257-binary-tree-paths) |
 | [0290-word-pattern](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0290-word-pattern) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0345-reverse-vowels-of-a-string](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
@@ -332,6 +333,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0257-binary-tree-paths](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0257-binary-tree-paths) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0572-subtree-of-another-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0572-subtree-of-another-tree) |
@@ -352,6 +354,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0257-binary-tree-paths](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0257-binary-tree-paths) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0572-subtree-of-another-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
@@ -371,6 +374,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0257-binary-tree-paths](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0257-binary-tree-paths) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0572-subtree-of-another-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0572-subtree-of-another-tree) |
@@ -385,6 +389,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0047-permutations-ii) |
 | [0078-subsets](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0078-subsets) |
+| [0257-binary-tree-paths](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0257-binary-tree-paths) |
 ## Breadth-First Search
 |  |
 | ------- |
