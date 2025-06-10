@@ -1,24 +1,20 @@
 class Solution {
     public List<String> generateParenthesis(int n) {
-        String cur = "";
         List<String> ans = new ArrayList<>();
-        generate(cur, 0, 0, ans, n);
+        String str = "";
+        generate(0, 0 , n, ans, str);
         return ans;
     }
-    private static void generate(String current,int open, int close, List<String> ans, int n){
-        // base case
-        if(current.length() >= 2 * n){
-            ans.add(current);
+    private void generate(int open, int close , int n , List<String> ans, String str){
+        if(open == n && close == n){
+            ans.add(str);
             return;
         }
-        // since at max we can have 3 open brackets
         if(open < n){
-            generate(current + "(", open + 1, close, ans, n);
+            generate(open + 1, close, n, ans, str + "(");
         }
-        // to add closing brackets after we have added all the closing brackets
         if(close < open){
-            generate(current + ")", open, close + 1, ans, n);
+            generate(open , close + 1, n , ans, str + ")");
         }
-
     }
 }
