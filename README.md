@@ -88,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0022-generate-parentheses) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0131-palindrome-partitioning](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0152-maximum-product-subarray](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0392-is-subsequence](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0392-is-subsequence) |
 | [0954-maximum-sum-circular-subarray](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0954-maximum-sum-circular-subarray) |
@@ -113,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0022-generate-parentheses) |
 | [0067-add-binary](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0067-add-binary) |
+| [0131-palindrome-partitioning](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0151-reverse-words-in-a-string](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0205-isomorphic-strings) |
 | [0257-binary-tree-paths](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0257-binary-tree-paths) |
@@ -394,6 +396,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0047-permutations-ii) |
 | [0078-subsets](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0078-subsets) |
+| [0131-palindrome-partitioning](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0257-binary-tree-paths](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0257-binary-tree-paths) |
 | [0800-letter-case-permutation](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0800-letter-case-permutation) |
 ## Breadth-First Search
