@@ -17,16 +17,13 @@ class Solution {
     public boolean isSymmetric(TreeNode root) {
         return isSame(root.left, root.right);
     }
-    private boolean isSame(TreeNode a, TreeNode b){
-        if(a == null && b == null){
+    public boolean isSame(TreeNode root1, TreeNode root2){
+        if(root1 == null && root2 == null){
             return true;
         }
-        if(a == null || b == null){
+        if(root1 == null || root2 == null){
             return false;
         }
-        if(a.val != b.val){
-            return false;
-        }
-        return isSame(a.left, b.right) && isSame(a.right, b.left);
+        return root1.val == root2.val && isSame(root1.left, root2.right) && isSame(root1.right , root2.left);
     }
 }
