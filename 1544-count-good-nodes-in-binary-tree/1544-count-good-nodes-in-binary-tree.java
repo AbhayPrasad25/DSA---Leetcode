@@ -17,15 +17,15 @@ class Solution {
     public int goodNodes(TreeNode root) {
         return dfs(root, root.val);
     }
-    private int dfs(TreeNode root, int max){
-        if(root ==  null){
+    private int dfs(TreeNode root , int max){
+        if(root == null){
             return 0;
         }
         int count = 0;
         if(root.val >= max){
             count++;
         }
-        count += dfs(root.left, Math.max(root.val, max));
+        count += dfs(root.left , Math.max(root.val , max));
         count += dfs(root.right, Math.max(root.val, max));
         return count;
     }
