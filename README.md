@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0275-h-index-ii](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0275-h-index-ii) |
 | [0283-move-zeroes](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0287-find-the-duplicate-number) |
+| [0322-coin-change](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0322-coin-change) |
 | [0334-increasing-triplet-subsequence](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0334-increasing-triplet-subsequence) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
@@ -93,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0152-maximum-product-subarray) |
+| [0322-coin-change](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0322-coin-change) |
 | [0392-is-subsequence](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0392-is-subsequence) |
 | [0954-maximum-sum-circular-subarray](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0954-maximum-sum-circular-subarray) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
@@ -415,6 +417,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0112-path-sum](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0112-path-sum) |
 | [0226-invert-binary-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0226-invert-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0322-coin-change](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0322-coin-change) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Enumeration
 |  |
