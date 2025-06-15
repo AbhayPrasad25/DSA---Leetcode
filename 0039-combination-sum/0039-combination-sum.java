@@ -1,25 +1,25 @@
 class Solution {
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         List<List<Integer>> res = new ArrayList<>();
-        HashSet<List<Integer>> set = new HashSet<>();
-        List<Integer> comb = new ArrayList<>();
         Arrays.sort(candidates);
-        generate(res, comb, candidates, target, 0);
+        List<Integer> ans = new ArrayList<>();
+        backtrack(candidates, target, ans, res, 0, 0);
         return res;
     }
 
-    private void generate(List<List<Integer>> res, List<Integer> comb, int[] nums, int rem, int index) {
-        if (rem == 0) {
-            res.add(new ArrayList<>(comb));
+    public void backtrack(int[] candidates, int target, List<Integer> ans, List<List<Integer>> res, int sum,
+            int index) {
+        if (sum == target) {
+            res.add(new ArrayList<>(ans));
             return;
         }
-        for (int i = index; i < nums.length; i++) {
-            if(nums[i] > rem){
+        for (int i = index; i < candidates.length; i++) {
+            if (sum > target) {
                 break;
             }
-            comb.add(nums[i]);
-            generate(res, comb, nums, rem - nums[i], i);
-            comb.remove(comb.size() - 1);
+            ans.add(candidates[i]);
+            backtrack(candidates, target, ans, res, sum + candidates[i], i);
+            ans.remove(ans.size() - 1);
         }
     }
 }
