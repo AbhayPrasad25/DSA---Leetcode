@@ -1,30 +1,30 @@
 class Solution {
     public List<List<Integer>> permuteUnique(int[] nums) {
-        List<List<Integer>> res = new ArrayList<>();
-        List<Integer> perm = new ArrayList<>();
-        boolean[] visited = new boolean[nums.length];
+        List<List<Integer>> ans = new ArrayList<>();
+        List<Integer> res = new ArrayList<>();
         Arrays.sort(nums);
-        generate(res, perm , nums, visited);
-        return res;
+        boolean[] used = new boolean[nums.length];
+        backtrack(ans, res, nums, 0, used);
+        return ans;
     }
 
-    private void generate(List<List<Integer>>  res , List<Integer> perm, int[] nums, boolean[] visited){
-        if(perm.size() == nums.length){
-            res.add(new ArrayList<>(perm));
+    public void backtrack(List<List<Integer>> ans, List<Integer> res, int[] nums, int index, boolean[] used){
+        if(index == nums.length){
+            ans.add(new ArrayList<>(res));
             return;
         }
         for(int i = 0; i < nums.length; i++){
-            if(visited[i]){
+            if(used[i]){
                 continue;
             }
-            if(i > 0 && nums[i] == nums[i - 1] && visited[i - 1]){
+            if(i > 0 && nums[i] == nums[i - 1] && !used[i - 1]){
                 continue;
             }
-            visited[i] = true;
-            perm.add(nums[i]);
-            generate(res , perm, nums, visited);
-            perm.remove(perm.size() - 1);
-            visited[i] = false;
+            res.add(nums[i]);
+            used[i] = true;
+            backtrack(ans, res, nums, index + 1, used);
+            used[i] = false;
+            res.remove(res.size() - 1);
         }
     }
 }
