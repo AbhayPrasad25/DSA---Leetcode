@@ -3,21 +3,19 @@ class Solution {
         List<List<Integer>> res = new ArrayList<>();
         List<Integer> ans = new ArrayList<>();
         Arrays.sort(nums);
-        HashSet<List<Integer>> set = new HashSet<>();
-        backtrack(res, ans, 0, nums, set);
+        backtrack(res, ans, nums, 0);
         return res;
     }
-    public void backtrack(List<List<Integer>> res, List<Integer> ans, int index, int[] nums, HashSet<List<Integer>> set){
-        if(index >= nums.length){
-            if(!set.contains(ans)){
-                res.add(new ArrayList<>(ans));
-                set.add(ans);
+
+    public void backtrack(List<List<Integer>> res, List<Integer> ans, int[] nums, int index) {
+        res.add(new ArrayList<>(ans));
+        for (int i = index; i < nums.length; i++) {
+            if(i > index && nums[i] == nums[i - 1]) {
+                continue;
             }
-            return;
+            ans.add(nums[i]);
+            backtrack(res, ans, nums, i+1);
+            ans.remove(ans.size() - 1);
         }
-        ans.add(nums[index]);
-        backtrack(res, ans, index + 1, nums, set);
-        ans.remove(ans.size() - 1);
-        backtrack(res, ans, index + 1, nums, set);
     }
 }
