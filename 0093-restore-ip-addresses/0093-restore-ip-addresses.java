@@ -6,6 +6,9 @@ class Solution {
         return res;
     }
     public void backtrack(List<String> ans, List<String> res, String s, int index){
+        if(s.length() > 12){
+            return;
+        }
         if(index == s.length() && ans.size() == 4){
             String st = String.join(".", ans);
             res.add(st);
