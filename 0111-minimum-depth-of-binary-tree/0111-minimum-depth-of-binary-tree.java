@@ -18,17 +18,16 @@ class Solution {
         int depth = 0;
         Queue<TreeNode> q = new LinkedList<>();
         q.offer(root);
-        boolean flag = false;
         if(root == null){
             return depth;
         }
         while(!q.isEmpty()){
+            depth++;
             int size = q.size();
             for(int i = 0; i < size; i++){
                 TreeNode temp = q.poll();
                 if(temp.left == null && temp.right == null){
-                    flag = true;
-                    break;
+                    return depth;
                 }
                 if(temp.left != null){
                     q.offer(temp.left);
@@ -36,10 +35,6 @@ class Solution {
                 if(temp.right != null){
                     q.offer(temp.right);
                 }
-            }
-            depth += 1;
-            if(flag){
-                break;
             }
         }
         return depth;
