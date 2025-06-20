@@ -23,18 +23,16 @@ class Solution {
         }
         while(!q.isEmpty()){
             int size = q.size();
-            int el = q.peek().val;
+            ans.add(q.peek().val);
             for(int i = 0; i < size; i++){
                 TreeNode temp = q.poll();
-                el = temp.val;
-                if(temp.left != null){
-                    q.offer(temp.left);
-                }
                 if(temp.right != null){
                     q.offer(temp.right);
                 } 
+                if(temp.left != null){
+                    q.offer(temp.left);
+                }
             }
-            ans.add(el);
         }
         return ans;
     }
