@@ -293,6 +293,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0526-beautiful-arrangement](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0526-beautiful-arrangement) |
 | [0800-letter-case-permutation](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0800-letter-case-permutation) |
+| [2323-minimum-bit-flips-to-convert-number](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/2323-minimum-bit-flips-to-convert-number) |
 ## Union Find
 |  |
 | ------- |
