@@ -1,16 +1,22 @@
 class Solution {
     public int[] singleNumber(int[] nums) {
-        int[] arr = new int[2];
-        HashMap<Integer, Integer> map = new HashMap<>();
-        for(int num : nums){
-            map.put(num, map.getOrDefault(num , 0) + 1);
+        //The base idea is to get the rightmost bit and do operations on that
+        int num = 0;
+        for(int n : nums){
+            num ^= n;
         }
-        int i = 0;
-        for(var entry : map.entrySet()){
-            if(entry.getValue() == 1){
-                arr[i++] = entry.getKey();
+        //now we will try to place number based on the buckets 
+        num = (num ^ num - 1) & num;
+        int el1 =0, el2 = 0;
+        for(int n : nums){
+            if((num & n ) != 0){
+                el1 ^= n;
+            }
+            else{
+                el2 ^= n;
             }
         }
+        int[] arr = new int[]{el1, el2};
         return arr;
     }
 }
