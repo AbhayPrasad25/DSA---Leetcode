@@ -16,16 +16,22 @@ class Solution {
         else if(dividend < 0 && divisor > 0){
             isPositive = false;
         }
-        long n  = dividend;
-        long d  = divisor;
+        long count = 0;
+        long n = dividend;
+        long d = divisor;
+
         n = Math.abs(n);
         d = Math.abs(d);
-
-        long count = 0, sum = 0;
-        while(sum + d <= n){
-            count += 1;
-            sum += d;
+        
+        while(n >= d){
+            int pow = 1;
+            while(pow * d * 2 <= n){
+                pow *=2;
+            }
+            count += pow;
+            n -= pow * d;
         }
+
         if(count > Integer.MAX_VALUE && isPositive){
             return Integer.MAX_VALUE;
         }
