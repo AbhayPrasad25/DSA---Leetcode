@@ -24,12 +24,12 @@ class Solution {
         d = Math.abs(d);
         
         while(n >= d){
-            int pow = 1;
-            while(pow * d * 2 <= n){
-                pow *=2;
+            int cnt = 0;
+            while(n >= (d << (cnt + 1))){
+                cnt++;
             }
-            count += pow;
-            n -= pow * d;
+            count += 1 << cnt;
+            n -= d << cnt;
         }
 
         if(count > Integer.MAX_VALUE && isPositive){
