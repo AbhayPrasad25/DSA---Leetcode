@@ -16,7 +16,7 @@ class Solution {
         else if(dividend < 0 && divisor > 0){
             isPositive = false;
         }
-        long count = 0;
+        int count = 0;
         long n = dividend;
         long d = divisor;
 
@@ -32,12 +32,12 @@ class Solution {
             n -= d << cnt;
         }
 
-        if(count > Integer.MAX_VALUE && isPositive){
+        if(count == (1 << 31) && isPositive){
             return Integer.MAX_VALUE;
         }
-        if(count > Integer.MAX_VALUE && !isPositive){
+        if(count == (1 << 31) && !isPositive){
             return Integer.MIN_VALUE;
         }
-        return isPositive ? (int) count : (int)(-1 * count);
+        return isPositive ? count : -1 * count;
     }
 }
