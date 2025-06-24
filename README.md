@@ -234,6 +234,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0002-add-two-numbers) |
 | [0012-integer-to-roman](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0012-integer-to-roman) |
+| [0029-divide-two-integers](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0029-divide-two-integers) |
 | [0050-powx-n](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0050-powx-n) |
 | [0067-add-binary](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0067-add-binary) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -289,6 +290,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0029-divide-two-integers](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0029-divide-two-integers) |
 | [0067-add-binary](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0067-add-binary) |
 | [0078-subsets](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0090-subsets-ii) |
