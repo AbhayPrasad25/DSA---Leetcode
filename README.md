@@ -313,6 +313,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [0547-number-of-provinces](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0547-number-of-provinces) |
 ## Stack
 |  |
 | ------- |
@@ -407,6 +408,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0257-binary-tree-paths](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0257-binary-tree-paths) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0543-diameter-of-binary-tree) |
+| [0547-number-of-provinces](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0547-number-of-provinces) |
 | [0572-subtree-of-another-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0572-subtree-of-another-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Binary Tree
@@ -469,6 +471,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0226-invert-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0322-coin-change](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0322-coin-change) |
+| [0547-number-of-provinces](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0547-number-of-provinces) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Enumeration
 |  |
@@ -522,4 +525,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0496-next-greater-element-i) |
+## Graph
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0547-number-of-provinces) |
 <!---LeetCode Topics End-->
