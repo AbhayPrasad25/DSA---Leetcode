@@ -22,7 +22,7 @@ class Solution {
         for(int i = 0 ; i < v; i++){
             if(vis[i] == 0){
                 cnt++;
-                dfs(i , adjLst, vis);
+                bfs(i , adjLst, vis);
             }
         }
         return cnt;
@@ -33,6 +33,20 @@ class Solution {
             if(vis[node] != 1){
                 vis[node] = 1;
                 dfs(node, adjLst, vis);
+            }
+        }
+    }
+    public void bfs(int v, List<List<Integer>> adjLst, int[] vis){
+        Queue<Integer> q = new LinkedList<>();
+        vis[v] = 1;
+        q.add(v);
+        while(!q.isEmpty()){
+            int node = q.poll();
+            for(int adjNode : adjLst.get(node)){
+                if(vis[adjNode] == 0){
+                    vis[adjNode] = 1;
+                    q.add(adjNode);
+                }
             }
         }
     }
