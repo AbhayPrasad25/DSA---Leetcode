@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1034-subarrays-with-k-different-integers](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1049-minimum-domino-rotations-for-equal-row) |
+| [1073-number-of-enclaves](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1073-number-of-enclaves) |
 | [1319-unique-number-of-occurrences](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1319-unique-number-of-occurrences) |
 | [1354-find-players-with-zero-or-one-losses](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1354-find-players-with-zero-or-one-losses) |
 | [1370-count-number-of-nice-subarrays](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
@@ -290,6 +291,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0200-number-of-islands](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0200-number-of-islands) |
 | [0733-flood-fill](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0733-flood-fill) |
+| [1073-number-of-enclaves](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1073-number-of-enclaves) |
 | [2428-equal-row-and-column-pairs](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/2428-equal-row-and-column-pairs) |
 ## Simulation
 |  |
@@ -319,6 +321,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0547-number-of-provinces) |
+| [1073-number-of-enclaves](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1073-number-of-enclaves) |
 ## Stack
 |  |
 | ------- |
@@ -417,6 +420,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0547-number-of-provinces) |
 | [0572-subtree-of-another-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0733-flood-fill](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0733-flood-fill) |
+| [1073-number-of-enclaves](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1073-number-of-enclaves) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Binary Tree
 |  |
@@ -481,6 +485,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0322-coin-change) |
 | [0547-number-of-provinces](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0733-flood-fill) |
+| [1073-number-of-enclaves](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1073-number-of-enclaves) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Enumeration
 |  |
