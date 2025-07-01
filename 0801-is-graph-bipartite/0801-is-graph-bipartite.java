@@ -20,18 +20,11 @@ class Solution {
             int Node = q.poll();
             for(int adjNode : graph[Node]){
                 if(color[adjNode] == -1){
-                    if(color[Node] == 0){
-                        color[adjNode] = 1;
-                    }
-                    else{
-                        color[adjNode] = 0;
-                    }
+                    color[adjNode] = 1 - color[Node];
                     q.add(adjNode);
                 }
-                else{
-                    if(color[adjNode] == color[Node]){
-                        return false;
-                    }
+                else if(color[adjNode] == color[Node]){
+                    return false;
                 }
             }
         }
