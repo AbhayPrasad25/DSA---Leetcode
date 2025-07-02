@@ -5,7 +5,7 @@ class Solution {
         boolean[] vis = new boolean[graph.length];
         for(int i = 0; i < graph.length; i++){
             if(color[i] == -1){
-                if(bfs(i, graph, color) == false){
+                if(dfs(i, 0, graph, color) == false){
                     return false;
                 }
             }
@@ -26,6 +26,20 @@ class Solution {
                 else if(color[adjNode] == color[Node]){
                     return false;
                 }
+            }
+        }
+        return true;
+    }
+    private boolean dfs(int node, int Color,int[][] graph, int[] color){
+        color[node] = Color;
+        for(int adjNode : graph[node]){
+            if(color[adjNode] == -1){
+                if(dfs(adjNode, 1 - Color, graph, color) == false){
+                    return false;
+                }
+            }
+            else if(color[adjNode] == Color){
+                return false;
             }
         }
         return true;
