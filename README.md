@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0041-first-missing-positive](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0041-first-missing-positive) |
 | [0046-permutations](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0047-permutations-ii) |
+| [0055-jump-game](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0057-insert-interval) |
 | [0075-sort-colors](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0075-sort-colors) |
@@ -106,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0022-generate-parentheses) |
+| [0055-jump-game](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0055-jump-game) |
 | [0091-decode-ways](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0091-decode-ways) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -123,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0011-container-with-most-water) |
+| [0055-jump-game](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0334-increasing-triplet-subsequence](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0334-increasing-triplet-subsequence) |
 | [0455-assign-cookies](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0455-assign-cookies) |
