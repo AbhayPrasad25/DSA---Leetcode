@@ -1,7 +1,6 @@
 class Solution {
     public boolean lemonadeChange(int[] bills) {
         int left = 0;
-        int twenty = 0;
         int ten = 0;
         int five = 0;
         while(left < bills.length){
@@ -11,26 +10,25 @@ class Solution {
                 five++;
             }
             else if(amount == 10){
-                ten++;
+                if(five > 0){
+                    five--;
+                    ten++;
+                }
+                else{
+                    return false;
+                }
             }
             else{
-                twenty++;
-            }
-            int right = 2;
-            while(change >= 20 && twenty > 0){
-                change -= 20;
-                twenty--;
-            }
-            while(change >= 10 && ten > 0){
-                change -= 10;
-                ten--;
-            }
-            while(change >= 5 && five > 0){
-                change -= 5;
-                five--;
-            }
-            if(change != 0){
-                return false;
+                if(five > 0 && ten > 0){
+                    five--;
+                    ten--;
+                }
+                else if(five >= 3){
+                    five-=3;
+                }
+                else{
+                    return false;
+                }
             }
             left++;
         }
