@@ -86,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0061-rotate-list](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0061-rotate-list) |
 | [0075-sort-colors](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0075-sort-colors) |
 | [0086-partition-list](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0086-partition-list) |
+| [0148-sort-list](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0148-sort-list) |
 | [0151-reverse-words-in-a-string](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0160-intersection-of-two-linked-lists](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0283-move-zeroes](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0283-move-zeroes) |
@@ -205,6 +206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0025-reverse-nodes-in-k-group](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0025-reverse-nodes-in-k-group) |
 | [0061-rotate-list](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0061-rotate-list) |
 | [0086-partition-list](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0086-partition-list) |
+| [0148-sort-list](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0148-sort-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0528-swapping-nodes-in-a-linked-list](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0528-swapping-nodes-in-a-linked-list) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
@@ -225,6 +227,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0047-permutations-ii](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0047-permutations-ii) |
 | [0056-merge-intervals](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0075-sort-colors) |
+| [0148-sort-list](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0148-sort-list) |
 | [0268-missing-number](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0268-missing-number) |
 | [0274-h-index](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0274-h-index) |
 | [0451-sort-characters-by-frequency](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0451-sort-characters-by-frequency) |
@@ -359,6 +362,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0148-sort-list](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0148-sort-list) |
 | [0954-maximum-sum-circular-subarray](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0954-maximum-sum-circular-subarray) |
 ## Queue
 |  |
@@ -559,4 +563,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0547-number-of-provinces](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0801-is-graph-bipartite) |
+## Merge Sort
+|  |
+| ------- |
+| [0148-sort-list](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0148-sort-list) |
 <!---LeetCode Topics End-->
