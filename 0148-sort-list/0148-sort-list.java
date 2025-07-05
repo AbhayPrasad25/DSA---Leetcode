@@ -21,38 +21,36 @@ class Solution {
         return merge(head1, head2);
     }
     private ListNode getMid(ListNode head){
-        ListNode fast = head.next;
+        ListNode fast = head;
         ListNode slow = head;
-        while(fast != null && fast.next != null){
+        while(fast.next != null && fast.next.next != null){
             fast = fast.next.next;
             slow = slow.next;
         }
         return slow;
     }
     private ListNode merge(ListNode temp, ListNode temp2){
-        ListNode dummy1 = new ListNode(0);
-        ListNode dummy = dummy1;
+        ListNode dummy = new ListNode(0);
+        ListNode tail = dummy;
         ListNode l1 = temp;
         ListNode l2 = temp2;
         while(l1 != null && l2 != null){
-            if(l1.val <= l2.val){
-                dummy.next = l1;
+            if(l1.val < l2.val){
+                tail.next = l1;
                 l1 = l1.next;
             }
             else{
-                dummy.next = l2;
+                tail.next = l2;
                 l2 = l2.next;
             }
-            dummy = dummy.next;
+            tail = tail.next;
         }
-        while(l1 != null){
-            dummy.next = l1;
-            l1 = l1.next;
+        if(l1 != null){
+            tail.next = l1;
         }
-        while(l2 != null){
-            dummy.next = l2;
-            l2 = l2.next;
+        if(l2 != null){
+            tail.next = l2;
         }
-        return dummy1.next;
+        return dummy.next;
     } 
 }
