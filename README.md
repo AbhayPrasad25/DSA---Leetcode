@@ -109,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0022-generate-parentheses](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0022-generate-parentheses) |
 | [0055-jump-game](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0055-jump-game) |
+| [0070-climbing-stairs](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0070-climbing-stairs) |
 | [0091-decode-ways](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0091-decode-ways) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -258,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0029-divide-two-integers](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0029-divide-two-integers) |
 | [0050-powx-n](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0050-powx-n) |
 | [0067-add-binary](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0067-add-binary) |
+| [0070-climbing-stairs](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0172-factorial-trailing-zeroes](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0172-factorial-trailing-zeroes) |
 | [0231-power-of-two](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0231-power-of-two) |
@@ -549,6 +551,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Memoization
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0070-climbing-stairs) |
 | [0139-word-break](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0139-word-break) |
 ## Bitmask
 |  |
