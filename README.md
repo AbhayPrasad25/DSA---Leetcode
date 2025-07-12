@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0057-insert-interval](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0057-insert-interval) |
 | [0075-sort-colors](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -151,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0022-generate-parentheses) |
 | [0067-add-binary](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0067-add-binary) |
+| [0079-word-search](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0079-word-search) |
 | [0091-decode-ways](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0091-decode-ways) |
 | [0093-restore-ip-addresses](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0093-restore-ip-addresses) |
 | [0131-palindrome-partitioning](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0131-palindrome-partitioning) |
@@ -311,6 +313,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0079-word-search](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0200-number-of-islands) |
 | [0733-flood-fill](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1036-rotting-oranges) |
@@ -426,6 +429,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0079-word-search) |
 | [0094-binary-tree-inorder-traversal](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0098-validate-binary-search-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0100-same-tree) |
@@ -492,6 +496,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0047-permutations-ii) |
 | [0078-subsets](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0090-subsets-ii) |
 | [0093-restore-ip-addresses](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0093-restore-ip-addresses) |
 | [0113-path-sum-ii](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0113-path-sum-ii) |
