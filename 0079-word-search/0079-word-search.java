@@ -1,5 +1,19 @@
 class Solution {
     public boolean exist(char[][] board, String word) {
+        //Check if it is Possible to find the word in matrix 
+        int[] wordFreq =  new int[128];
+        int[] boardFreq = new int[128];
+        for(char[] ch: board){
+            for(char c : ch){
+                boardFreq[c]++;
+            }
+        }
+        for(char ch : word.toCharArray()){
+            wordFreq[ch]++;
+            if(wordFreq[ch] > boardFreq[ch]){
+                return false;
+            }
+        }
         int[] decRow = { 1, 0, -1, 0 };
         int[] decCol = { 0, 1, 0, -1 };
         boolean[][] visited = new boolean[board.length][board[0].length];
