@@ -4,36 +4,46 @@ class Solution {
         if(nums.length == 1){
             return nums[0];
         }
-        int[] arr1 = new int[nums.length - 1];
-        int[] arr2 = new int[nums.length - 1];
-        int[] dp1 = new int[arr1.length];
-        int[] dp2 = new int[arr2.length];
-        Arrays.fill(dp1, -1);
-        Arrays.fill(dp2, -1);
-        for(int i = 0; i < nums.length; i++){
-            if(i != 0){
-                arr1[i - 1] = nums[i];
+        int[] dp = new int[nums.length - 1];
+        dp[0] = nums[0];
+        //mainly for the house from start excluding the last
+        for(int i = 1; i < nums.length - 1; i++){
+            int take = nums[i];
+            if(i > 1){
+                take += dp[i - 2];
             }
-            if(i != nums.length - 1){
-                arr2[i] = nums[i];
-            }
+            int nottake = dp[i-1];
+            dp[i] =  Math.max(take, nottake);
         }
-        return Math.max(houseRobbing(arr1 , arr1.length - 1, dp1), houseRobbing(arr2, arr2.length - 1, dp2));
+        return Math.max(dp[dp.length - 1], houseRobbing(nums));
     }
-    public int houseRobbing(int[] nums, int index, int[] dp){
-        if(index == 0){
-            return nums[index];
+    public int houseRobbing(int[] nums){
+        //for houses from the last but exclduing the first
+        int[] dp = new int[nums.length];
+        dp[0] = nums[0];
+        dp[1] = nums[1];
+        for(int i = 2; i < nums.length; i++){
+            int take = nums[i];
+            if(i > 2){
+                take += dp[i - 2];
+            }
+            int nottake = dp[i-1];
+            dp[i] =  Math.max(take, nottake);
         }
-        if(index < 0){
-            return 0;
-        }
-        if(dp[index] != -1){
-            return dp[index];
-        }
-        int take = nums[index] + houseRobbing(nums, index-2, dp);
-        int notTake = houseRobbing(nums, index - 1, dp);
-        dp[index] = Math.max(take, notTake);
-        return dp[index];
+        return dp[dp.length - 1]; 
+        // if(index == 0){
+        //     return nums[index];
+        // }
+        // if(index < 0){
+        //     return 0;
+        // }
+        // if(dp[index] != -1){
+        //     return dp[index];
+        // }
+        // int take = nums[index] + houseRobbing(nums, index-2, dp);
+        // int notTake = houseRobbing(nums, index - 1, dp);
+        // dp[index] = Math.max(take, notTake);
+        // return dp[index];
     }
 
 }
