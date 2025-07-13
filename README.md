@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0523-continuous-subarray-sum](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0525-contiguous-array) |
 | [0526-beautiful-arrangement](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0526-beautiful-arrangement) |
+| [0542-01-matrix](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0542-01-matrix) |
 | [0605-can-place-flowers](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0605-can-place-flowers) |
 | [0724-find-pivot-index](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0724-find-pivot-index) |
 | [0733-flood-fill](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0733-flood-fill) |
@@ -126,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0377-combination-sum-iv](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0377-combination-sum-iv) |
 | [0392-is-subsequence](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0392-is-subsequence) |
 | [0526-beautiful-arrangement](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0526-beautiful-arrangement) |
+| [0542-01-matrix](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0542-01-matrix) |
 | [0954-maximum-sum-circular-subarray](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0954-maximum-sum-circular-subarray) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1659-get-the-maximum-score](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1659-get-the-maximum-score) |
@@ -315,6 +317,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0079-word-search](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0200-number-of-islands) |
+| [0542-01-matrix](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1073-number-of-enclaves) |
@@ -520,6 +523,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0226-invert-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0322-coin-change](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0322-coin-change) |
+| [0542-01-matrix](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0733-flood-fill) |
 | [0801-is-graph-bipartite](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0801-is-graph-bipartite) |
