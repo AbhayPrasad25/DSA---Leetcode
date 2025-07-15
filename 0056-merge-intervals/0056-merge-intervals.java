@@ -2,7 +2,7 @@ class Solution {
     public int[][] merge(int[][] intervals) {
         //sorting the 2d array based on the starting time
         Arrays.sort(intervals, (a,b) -> Integer.compare(a[0] , b[0]));
-        LinkedList<int[]> mergedInterval = new LinkedList<>();
+        ArrayList<int[]> mergedInterval = new ArrayList<>();
         int low = intervals[0][0];
         int high = intervals[0][1];
         for(int i = 1; i < intervals.length; i++){
