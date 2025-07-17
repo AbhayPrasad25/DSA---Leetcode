@@ -1,24 +1,20 @@
 class Solution {
     public int minPathSum(int[][] grid) {
-        //oprimal space optmization with 1d array
-        int[] dp = new int[grid[0].length];
-        dp[0] = grid[0][0];
-        
+        //using the same dp for calculation
         for(int i = 1; i < grid[0].length; i++){
-            dp[i] = grid[0][i] + dp[i - 1];
+            grid[0][i] = grid[0][i - 1] + grid[0][i];
         }
         for(int i = 1; i < grid.length; i++){
             for(int j = 0; j < grid[0].length; j++){
                 if(j == 0){
-                    dp[j] = dp[j] + grid[i][j];
+                    grid[i][j] = grid[i][j] +  grid[i-1][j];
                     continue;
                 }
-                int min = Math.min(dp[j - 1], dp[j]);
-                dp[j] = min + grid[i][j];
+                int min = Math.min(grid[i-1][j], grid[i][j -1]);
+                grid[i][j] += min;
             }
         }
-
-        return dp[grid[0].length - 1];
+        return grid[grid.length - 1][grid[0].length - 1];
     }
 
 
@@ -65,4 +61,22 @@ class Solution {
         }
         return dp[grid.length - 1][grid[0].length - 1];
         */
+
+    //oprimal space optmization with 1d array
+        // int[] dp = new int[grid[0].length];
+        // dp[0] = grid[0][0];
+        
+        // for(int i = 1; i < grid[0].length; i++){
+        //     dp[i] = grid[0][i] + dp[i - 1];
+        // }
+        // for(int i = 1; i < grid.length; i++){
+        //     for(int j = 0; j < grid[0].length; j++){
+        //         if(j == 0){
+        //             dp[j] = dp[j] + grid[i][j];
+        //             continue;
+        //         }
+        //         int min = Math.min(dp[j - 1], dp[j]);
+        //         dp[j] = min + grid[i][j];
+        //     }
+        // }
 }
