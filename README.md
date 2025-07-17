@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0057-insert-interval) |
+| [0064-minimum-path-sum](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0064-minimum-path-sum) |
 | [0075-sort-colors](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0079-word-search) |
@@ -116,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0022-generate-parentheses) |
 | [0055-jump-game](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0062-unique-paths) |
+| [0064-minimum-path-sum](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0070-climbing-stairs) |
 | [0091-decode-ways](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0091-decode-ways) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -322,6 +324,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0064-minimum-path-sum](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0064-minimum-path-sum) |
 | [0079-word-search](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0200-number-of-islands) |
