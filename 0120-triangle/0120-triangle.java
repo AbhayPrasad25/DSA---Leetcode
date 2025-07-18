@@ -1,17 +1,25 @@
 class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
-        int[][] dp = new int[triangle.size() + 1][triangle.size() + 1];
+        int[] dp = new int[triangle.size()];
         int n = triangle.size();
         for(int i = 0; i < n; i++){
-            dp[n - 1][i] = triangle.get(n - 1).get(i);
+            dp[i] = triangle.get(n - 1).get(i);
         }
         for(int i = n - 2; i >= 0; i--){
+            int prev = 0;
             for(int j = i; j >= 0; j--){
-                dp[i][j] = Math.min(dp[i + 1][j] , dp[i+1][j+1]);
-                dp[i][j] += triangle.get(i).get(j);
+                if(j == i){
+                    int min = Math.min(dp[j], dp[j+1]);
+                    prev = dp[j];
+                    dp[j] = min + triangle.get(i).get(j);
+                    continue;
+                }
+                int min = Math.min(prev , dp[j]);
+                prev = dp[j];
+                dp[j] = min + triangle.get(i).get(j);
             }
         }
-        return dp[0][0];
+        return dp[0];
     }
     //recursive approach
     // public int triangleSum(List<List<Integer>> triangle , int row, int rowIndex , int[][] dp){
