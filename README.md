@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0455-assign-cookies](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0455-assign-cookies) |
 | [0496-next-greater-element-i](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0523-continuous-subarray-sum](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0525-contiguous-array) |
 | [0526-beautiful-arrangement](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0526-beautiful-arrangement) |
@@ -378,6 +379,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0155-min-stack) |
 | [0496-next-greater-element-i](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0886-score-of-parentheses](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0886-score-of-parentheses) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 | [2470-removing-stars-from-a-string](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/2470-removing-stars-from-a-string) |
@@ -603,6 +605,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0503-next-greater-element-ii) |
 ## Graph
 |  |
 | ------- |
