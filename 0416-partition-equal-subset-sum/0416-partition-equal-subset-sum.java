@@ -1,16 +1,35 @@
 class Solution {
-    public boolean canPartition(int[] nums) {
-        int n = nums.length;
-        int sum1 = 0;
-        for(int i : nums){
-            sum1 += i;
+    public boolean canPartition(int[] arr) {
+        int n = arr.length;
+        int targetsum = 0;
+        for(int i : arr){
+            targetsum += i;
         }
-        if(sum1 % 2 != 0){
+        if(targetsum % 2 != 0){
             return false;
         }
-        sum1 /= 2;
-        Boolean[][] dp = new Boolean[n][sum1 + 1];
-        return equalSubset(n - 1, nums, sum1, dp);
+        targetsum /= 2;
+        boolean[] prev = new boolean[targetsum + 1];
+        prev[0] = true;
+        if(arr[0] <= targetsum){
+            prev[arr[0]] = true;
+        }
+        for(int i = 1; i < n; i++){
+            boolean[] curr = new boolean[targetsum + 1];
+            //marking the first as true
+            curr[0] = true;
+            for(int j = 1; j <= targetsum; j++){
+                boolean take = false;
+                if(arr[i] <= j){
+                    take = prev[j - arr[i]];
+                }
+                boolean notTaken = prev[j];
+                curr[j] = take|| notTaken;
+            }
+            //putting the valuies in the prev to keep track of previous row 
+            prev = curr;
+        }
+        return prev[targetsum];
     }
     public boolean equalSubset(int index, int[] arr, int sum1, Boolean[][] dp){
         if(index == 0){
