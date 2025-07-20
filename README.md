@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0322-coin-change) |
 | [0334-increasing-triplet-subsequence](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0334-increasing-triplet-subsequence) |
 | [0377-combination-sum-iv](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0377-combination-sum-iv) |
+| [0416-partition-equal-subset-sum](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
@@ -137,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0322-coin-change) |
 | [0377-combination-sum-iv](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0377-combination-sum-iv) |
 | [0392-is-subsequence](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0392-is-subsequence) |
+| [0416-partition-equal-subset-sum](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0526-beautiful-arrangement](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0526-beautiful-arrangement) |
 | [0542-01-matrix](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0542-01-matrix) |
