@@ -2,11 +2,10 @@ class Solution {
     public int sumSubarrayMins(int[] arr) {
         long sum = 0;
         int modulo = (int)1e9 + 7;
-        int[] NSE = new int[arr.length];
-        int[] PSE = new int[arr.length];
+        int[] NSE = nse(arr);
+        int[] PSE = pse(arr);
 
-        nse(arr, NSE);
-        pse(arr, PSE);
+        
         // now every element we need to calculate the range and the number of subarray in
         // which it will be minimum
 
@@ -19,7 +18,8 @@ class Solution {
         }
         return (int) sum;
     }
-    private static void pse(int[] arr, int[] ans){
+    private static int[] pse(int[] arr){
+        int[] ans = new int[arr.length];
         Stack<Integer> stck = new Stack<>();
         for(int i = 0; i < arr.length;i++){
             while(!stck.isEmpty() && arr[stck.peek()] >= arr[i]){
@@ -28,9 +28,11 @@ class Solution {
             ans[i] = stck.isEmpty() ? -1 : stck.peek();
             stck.push(i);
         }
+        return ans;
     }
 
-    private static void nse(int[] arr, int[] ans){
+    private static int[] nse(int[] arr){
+        int[] ans = new int[arr.length];
         Stack<Integer> stck = new Stack<>();
         for(int i = arr.length - 1; i >= 0; i--){
             while(!stck.isEmpty() && arr[stck.peek()] > arr[i]){
@@ -39,5 +41,6 @@ class Solution {
             ans[i] = stck.isEmpty() ? arr.length : stck.peek();
             stck.push(i);
         }
+        return ans;
     }
 }
