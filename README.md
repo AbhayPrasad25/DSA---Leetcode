@@ -484,6 +484,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0572-subtree-of-another-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0733-flood-fill](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0733-flood-fill) |
 | [0801-is-graph-bipartite](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0801-is-graph-bipartite) |
+| [0820-find-eventual-safe-states](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0820-find-eventual-safe-states) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1073-number-of-enclaves](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1073-number-of-enclaves) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
@@ -556,6 +557,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0733-flood-fill) |
 | [0801-is-graph-bipartite](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0801-is-graph-bipartite) |
+| [0820-find-eventual-safe-states](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0820-find-eventual-safe-states) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1073-number-of-enclaves) |
@@ -620,6 +622,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0547-number-of-provinces](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0801-is-graph-bipartite) |
+| [0820-find-eventual-safe-states](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0820-find-eventual-safe-states) |
 ## Merge Sort
 |  |
 | ------- |
@@ -628,4 +631,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0062-unique-paths) |
+## Topological Sort
+|  |
+| ------- |
+| [0820-find-eventual-safe-states](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0820-find-eventual-safe-states) |
 <!---LeetCode Topics End-->
