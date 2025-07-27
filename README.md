@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0040-combination-sum-ii) |
 | [0041-first-missing-positive](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0041-first-missing-positive) |
+| [0042-trapping-rain-water](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0047-permutations-ii) |
 | [0055-jump-game](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0055-jump-game) |
@@ -97,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0011-container-with-most-water) |
 | [0031-next-permutation](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0031-next-permutation) |
+| [0042-trapping-rain-water](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0042-trapping-rain-water) |
 | [0061-rotate-list](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0061-rotate-list) |
 | [0075-sort-colors](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0075-sort-colors) |
 | [0086-partition-list](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0086-partition-list) |
@@ -122,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0022-generate-parentheses) |
+| [0042-trapping-rain-water](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0042-trapping-rain-water) |
 | [0055-jump-game](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0063-unique-paths-ii) |
@@ -384,6 +387,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0020-valid-parentheses) |
+| [0042-trapping-rain-water](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0042-trapping-rain-water) |
 | [0094-binary-tree-inorder-traversal](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -628,6 +632,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0042-trapping-rain-water) |
 | [0402-remove-k-digits](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0503-next-greater-element-ii) |
