@@ -5,21 +5,13 @@ class Solution {
         int trapped = 0;
         while(left < right){
             if(height[left] <= height[right]){
-                if(maxhL >= height[left]){
-                    trapped += (maxhL - height[left]);
-                }
-                else{
-                    maxhL = Math.max(maxhL , height[left]);
-                }
+                trapped += Math.max(0, maxhL - height[left]);
+                maxhL = Math.max(maxhL, height[left]);
                 left++;
             }
             else{
-                if(maxhR >= height[right]){
-                    trapped += (maxhR - height[right]);
-                }
-                else{
-                    maxhR = Math.max(maxhR, height[right]);
-                }
+                trapped += Math.max(0, maxhR - height[right]);
+                maxhR = Math.max(maxhR, height[right]);
                 right--;
             }
         }
