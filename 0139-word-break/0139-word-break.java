@@ -1,27 +1,24 @@
 class Solution {
     public boolean wordBreak(String s, List<String> wordDict) {
-        // to optimze the size issue we can store the result of repeated index and check if it matches 
-        String str = "";
+        HashSet<String> set = new HashSet<>(wordDict);
         Boolean[] memo = new Boolean[s.length()];
-        return backtrack(s, 0, wordDict, memo);
+        return canBeMade(0,s, wordDict, set, memo);
     }
-    private boolean backtrack(String s, int index, List<String> wordDict, Boolean[] memo){
-        if(index == s.length()){
+    public static boolean canBeMade(int index,String s, List<String> wordDict, HashSet<String> set, Boolean[] memo){
+        //base case
+        if(index >= s.length()){
             return true;
         }
         if(memo[index] != null){
             return memo[index];
         }
-        for(String word : wordDict){
-            //checks every prefix and checks if the substring starts with the word and if it starts we call to check if the next substring contains any word in the wordDict
-            if(s.substring(index).startsWith(word)){
-                if(backtrack(s, index + word.length() , wordDict, memo)){
-                    memo[index] = true;
-                    return true;
-                }
+        boolean res = false;
+        for(int i = index; i < s.length(); i++){
+            if(set.contains(s.substring(index , i+1))){
+                res =  res || canBeMade(i+1, s, wordDict, set, memo);
             }
-            memo[index] = false;
         }
-        return false;
+        memo[index] = res;
+        return memo[index];
     }
 }
