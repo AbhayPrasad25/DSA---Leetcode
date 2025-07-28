@@ -1,29 +1,29 @@
 class Solution {
     public List<List<String>> partition(String s) {
-        List<List<String>> ans = new ArrayList<>();
-        List<String> res = new ArrayList<>();
-        backtrack(0, ans, res, s);
-        return ans;
+        List<List<String>> res = new ArrayList<>();
+        List<String> ans = new ArrayList<>();
+        backtrack(0 , s, res, ans);
+        return res;
     }
-    private void backtrack(int index, List<List<String>> ans, List<String> res, String s){
-        //base case
+
+    public static void backtrack(int index, String s, List<List<String>> res, List<String> ans){
         if(index == s.length()){
-            ans.add(new ArrayList<>(res));
+            res.add(new ArrayList<>(ans));
             return;
         }
-        for(int end = index; end < s.length(); end++){
-            if(isPalindrome(s.substring(index , end + 1))){
-                res.add(s.substring(index , end + 1));
-                backtrack(end + 1, ans, res, s);
-                res.remove(res.size() - 1);
+        for(int i = index; i < s.length(); i++){
+            if(isPalindrome(s.substring(index , i+1))){
+                ans.add(s.substring(index , i+1));
+                backtrack(i+1, s, res, ans);
+                ans.remove(ans.size() - 1);
             }
         }
     }
-    private boolean isPalindrome(String str){
+    public static boolean isPalindrome(String s){
         int left = 0;
-        int right = str.length() - 1;
+        int right = s.length() - 1;
         while(left < right){
-            if(str.charAt(left) != str.charAt(right)){
+            if(s.charAt(left) != s.charAt(right)){
                 return false;
             }
             left++;
