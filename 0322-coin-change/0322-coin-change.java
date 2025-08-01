@@ -19,7 +19,7 @@ class Solution {
                 return Integer.MAX_VALUE - 1;
             }
         }
-        if(dp[index][amount] != -1 && amount > 0){
+        if(dp[index][amount] != -1){
             return dp[index][amount];
         }
         int take = Integer.MAX_VALUE - 1;
