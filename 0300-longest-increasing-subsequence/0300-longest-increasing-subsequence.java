@@ -1,20 +1,17 @@
 class Solution {
     public int lengthOfLIS(int[] nums) {
-        int[] curr = new int[nums.length + 1];
-        int[] prev = new int[nums.length + 1];
-        int n = nums.length;
-        for(int i = n - 1; i>= 0; i--){
-            for(int prevInd = i - 1; prevInd >= -1; prevInd--){
-                int take = 0;
-                if(prevInd == -1 || nums[i] > nums[prevInd]){
-                    take = 1 + prev[i + 1];
-                    }
-                int notTake = prev[prevInd + 1];
-                curr[prevInd + 1] = Math.max(take, notTake);
+        int[] dp = new int[nums.length];
+        Arrays.fill(dp , 1);
+        int max = 1;
+        for(int i = 0; i < nums.length; i++){
+            for(int j = 0; j < i; j++){
+               if(nums[j] < nums[i]){
+                dp[i] = Math.max(dp[i] , 1 + dp[j]);
+               }
             }
-            prev = curr;
+            max = Math.max(dp[i] , max);
         }
-        return prev[-1 + 1];
+        return max;
     }
 
     public int recurseLis(int index, int[] nums, int prev, int[][] dp) {
