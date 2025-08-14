@@ -15,15 +15,26 @@
  */
 class Solution {
     public boolean isValidBST(TreeNode root) {
-        return dfs(root, Long.MIN_VALUE , Long.MAX_VALUE);
-    }
-    private boolean dfs(TreeNode root, long min, long max){
-        if(root == null){
-            return true;
+        Stack<TreeNode> stck = new Stack<>();
+        long prevValue = Long.MIN_VALUE;
+        TreeNode temp = root;
+        while(true){
+            if(temp != null){
+                stck.push(temp);
+                temp = temp.left;
+            }
+            else{
+                if(stck.isEmpty()){
+                    break;
+                }
+                temp = stck.pop();
+                if(temp.val <= prevValue){
+                    return false;
+                }
+                prevValue = temp.val;
+                temp = temp.right;
+            }
         }
-        if(!(min < root.val && root.val < max)){
-            return false;
-        }
-        return dfs(root.left, min , root.val) && dfs(root.right, root.val, max);
+        return true;
     }
 }
