@@ -155,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0392-is-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0435-non-overlapping-intervals) |
+| [0516-longest-palindromic-subsequence](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0516-longest-palindromic-subsequence) |
 | [0526-beautiful-arrangement](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0526-beautiful-arrangement) |
 | [0542-01-matrix](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0542-01-matrix) |
 | [0943-sum-of-subarray-minimums](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0943-sum-of-subarray-minimums) |
@@ -205,6 +206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0402-remove-k-digits](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0402-remove-k-digits) |
 | [0443-string-compression](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0443-string-compression) |
 | [0451-sort-characters-by-frequency](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0451-sort-characters-by-frequency) |
+| [0516-longest-palindromic-subsequence](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0516-longest-palindromic-subsequence) |
 | [0800-letter-case-permutation](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0800-letter-case-permutation) |
 | [0886-score-of-parentheses](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/0886-score-of-parentheses) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/AbhayPrasad25/DSA---Leetcode/tree/master/1146-greatest-common-divisor-of-strings) |
